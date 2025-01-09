@@ -18,7 +18,8 @@ app.get("/", (req, res) => {
 let ProductShema = new mongoose.Schema({
     name: String,
     description: String,
-    price: Number
+    price: Number,
+    isNew:Boolean
 })
 let ProductModel = mongoose.model("products", ProductShema)
 app.get("/products", async (req, res) => {

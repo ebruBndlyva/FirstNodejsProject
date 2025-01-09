@@ -33,6 +33,7 @@ table {
 }
 tr {
   box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.1);
+  border: 1px solid black;
 }
 th,
 td {
@@ -41,6 +42,7 @@ td {
 }
 td button {
   border: none;
-  background-color: white;
+  background-color: transparent;
+  color: rgb(204, 200, 200);
   font-size: 18px;
 }
